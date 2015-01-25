@@ -134,7 +134,7 @@ fBodyGyroMag
 fBodyGyroJerkMag
 
 _____________________________________________________________________________________________________________________________
-###Variables###
+###Variables(in bold)###
 
 ____________________________________________________________________________________________________________________________
 
@@ -280,14 +280,15 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyAccelerationJerkMeanX#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Jerk Body Acceleration (calculated) - X axys
 
 Type - Double Number
 
 range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyAccelerationJerkMeanY#####
-Mean of accelerometer primary raw data - Y axys
+
+Mean of Jerk Body Acceleration (calculated) - Y axys
 
 Type - Double Number
 
@@ -295,7 +296,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyAccelerationJerkMeanZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Jerk Body Acceleration (calculated) - Z axys
 
 Type - Double Number
 
@@ -303,7 +304,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyAccelerationJerkStandardDeviationX#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Jerk Body Acceleration (calculated) - X axys
 
 Type - Double Number
 
@@ -311,7 +312,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyAccelerationJerkStandardDeviationY#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Jerk Body Acceleration (calculated) - Y axys
 
 Type - Double Number
 
@@ -319,7 +320,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyAccelerationJerkStandardDeviationZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Jerk Body Acceleration (calculated) - Z axys
 
 Type - Double Number
 
@@ -327,7 +328,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeMeanX#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean Gyroscope primary raw data - X axys
 
 Type - Double Number
 
@@ -335,7 +336,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeMeanY#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean Gyroscope primary raw data - Y axys
 
 Type - Double Number
 
@@ -343,7 +344,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeMeanZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean Gyroscope primary raw data - Z axys
 
 Type - Double Number
 
@@ -351,7 +352,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeStandardDeviationX#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation Gyroscope primary raw data - X axys
 
 Type - Double Number
 
@@ -359,7 +360,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeStandardDeviationY#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation Gyroscope primary raw data - Y axys
 
 Type - Double Number
 
@@ -367,7 +368,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeStandardDeviationZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation Gyroscope primary raw data - Z axys
 
 Type - Double Number
 
@@ -375,7 +376,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeJerkMeanX#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean Gyroscope Jerk (calculated) - X axys
 
 Type - Double Number
 
@@ -383,7 +384,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeJerkMeanY#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean Gyroscope Jerk (calculated) - Y axys
 
 Type - Double Number
 
@@ -391,7 +392,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeJerkMeanZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean Gyroscope Jerk (calculated) - Z axys
 
 Type - Double Number
 
@@ -399,7 +400,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeJerkStandardDeviationX#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation Gyroscope Jerk (calculated) - X axys
 
 Type - Double Number
 
@@ -407,7 +408,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeJerkStandardDeviationY#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation Gyroscope Jerk (calculated) - Y axys
 
 Type - Double Number
 
@@ -415,8 +416,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainBodyGyroscopeJerkStandardDeviationZ#####
 
-Mean of accelerometer primary raw data - Y axys
-
+Standard Deviation Gyroscope Jerk (calculated) - Z axys
 Type - Double Number
 
 range [-1..1]
