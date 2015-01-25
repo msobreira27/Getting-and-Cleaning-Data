@@ -8,11 +8,9 @@ The main assumption is that we consider valid measurements only if they come in 
 
 The comments on the script break the code in an introduction where the library needed and files are loaded and the the 5 steps requested by the course:
 
-####Merges the training and the test sets to create one data set.####
-
 Used function read.table to read all files and store in dataframes. Inertial Signals were not loaded as they are not needed in this exercise.
 
-####Extracts only the measurements on the mean and standard deviation for each measurement.####
+####Merges the training and the test sets to create one data set.####
 
 I used cbind and rbind functions to assemble the data - making sure the dimmensions were correct. Using the dim code the following dimensions were verified:
 
@@ -53,6 +51,14 @@ So merging the Train and Test sets would add 2 extra variables that were passed 
 
 dim(superSet)
    1] 10299   563
+
+####Extracts only the measurements on the mean and standard deviation for each measurement.####
+
+In this section choice was made to select only measurements that had pairs mean/Standard Deviation. To accomplish that we used the grep funtion:
+vectorMean <- grep("-mean()",names(superSet), fixed=TRUE) #filters the means
+vectorStd <- grep("-std()", names(superSet), fixed=TRUE) #filters the standard Deviations
+
+Note that fixed=TRUE requires exact matches, to avoid to capture other measurements that present the characteres required, but separated in the entire name.
 
 ####Uses descriptive activity names to name the activities in the data set####
 
@@ -423,7 +429,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainAccelerationMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Acceleration Magnitude (calculated)
 
 Type - Double Number
 
@@ -431,7 +437,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainAccelerationMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Acceleration Magnitude (calculated)
 
 Type - Double Number
 
@@ -439,7 +445,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainGravityAccelerationMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Gravity Acceleration Magnitude (calculated)
 
 Type - Double Number
 
@@ -447,7 +453,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainGravityAccelerationMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Gravity Acceleration Magnitude (calculated)
 
 Type - Double Number
 
@@ -455,7 +461,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainAccelerationJerkMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Acceleration Jerk Magnitude (Calculated) 
 
 Type - Double Number
 
@@ -463,7 +469,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainAccelerationJerkMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Acceleration Jerk Magnitude (Calculated) 
 
 Type - Double Number
 
@@ -471,7 +477,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainGyroscopeMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Gyroscope Maghitude (Calculated)
 
 Type - Double Number
 
@@ -479,7 +485,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainGyroscopeMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Gyroscope Maghitude (Calculated)
 
 Type - Double Number
 
@@ -487,7 +493,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainGyroscopeJerkMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Mean of Gyroscope Jerk Maghitude (Calculated)
 
 Type - Double Number
 
@@ -495,7 +501,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####timeDomainGyroscopeJerkMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Standard Deviation of Gyroscope Jerk Maghitude (Calculated)
 
 Type - Double Number
 
@@ -503,7 +509,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerometerMeanX#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Accelerometer - X Axis
 
 Type - Double Number
 
@@ -511,7 +517,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerometerMeanY#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Accelerometer - Y Axis
 
 Type - Double Number
 
@@ -519,7 +525,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerometerMeanZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Accelerometer - Z Axis
 
 Type - Double Number
 
@@ -527,7 +533,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerometerStandardDeviationX#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Accelerometer - X Axis
 
 Type - Double Number
 
@@ -535,7 +541,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerometerStandardDeviationY#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Accelerometer - Y Axis
 
 Type - Double Number
 
@@ -543,15 +549,16 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerometerStandardDeviationZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Accelerometer - Z Axis
 
 Type - Double Number
 
 range [-1..1]
+
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerationJerkMeanX#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Jerk Acceleration - X Axis
 
 Type - Double Number
 
@@ -559,7 +566,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerationJerkMeanY#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Jerk Acceleration - Y Axis
 
 Type - Double Number
 
@@ -567,7 +574,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerationJerkMeanZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Jerk Acceleration - Z Axis
 
 Type - Double Number
 
@@ -575,7 +582,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerationJerkStandardDeviationX#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Jerk Acceleration - X Axis
 
 Type - Double Number
 
@@ -583,7 +590,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerationJerkStandardDeviationY#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Jerk Acceleration - Y Axis
 
 Type - Double Number
 
@@ -591,7 +598,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyAccelerationJerkStandardDeviationZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Jerk Acceleration - Z Axis
 
 Type - Double Number
 
