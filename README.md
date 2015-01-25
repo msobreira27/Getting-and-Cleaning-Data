@@ -210,263 +210,419 @@ Type - Double Number
 
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyAccelerationJerkMeanZ
+#####timeDomainBodyAccelerationJerkMeanZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyAccelerationJerkStandardDeviationX
+#####timeDomainBodyAccelerationJerkStandardDeviationX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyAccelerationJerkStandardDeviationY
+#####timeDomainBodyAccelerationJerkStandardDeviationY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyAccelerationJerkStandardDeviationZ
+#####timeDomainBodyAccelerationJerkStandardDeviationZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeMeanX
+#####timeDomainBodyGyroscopeMeanX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeMeanY
+#####timeDomainBodyGyroscopeMeanY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeMeanZ
+#####timeDomainBodyGyroscopeMeanZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeStandardDeviationX
+#####timeDomainBodyGyroscopeStandardDeviationX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeStandardDeviationY
+#####timeDomainBodyGyroscopeStandardDeviationY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeStandardDeviationZ
+#####timeDomainBodyGyroscopeStandardDeviationZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeJerkMeanX
+#####timeDomainBodyGyroscopeJerkMeanX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeJerkMeanY
+#####timeDomainBodyGyroscopeJerkMeanY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeJerkMeanZ
+#####timeDomainBodyGyroscopeJerkMeanZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeJerkStandardDeviationX
+#####timeDomainBodyGyroscopeJerkStandardDeviationX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeJerkStandardDeviationY
+#####timeDomainBodyGyroscopeJerkStandardDeviationY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyGyroscopeJerkStandardDeviationZ
+#####timeDomainBodyGyroscopeJerkStandardDeviationZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainAccelerationMagnitudeMean
+#####timeDomainAccelerationMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainAccelerationMagnitudeStandardDeviation
+#####timeDomainAccelerationMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelerationMagnitudeMean
+#####timeDomainGravityAccelerationMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelerationMagnitudeStandardDeviation
+#####timeDomainGravityAccelerationMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainAccelerationJerkMagnitudeMean
+#####timeDomainAccelerationJerkMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainAccelerationJerkMagnitudeStandardDeviation
+#####timeDomainAccelerationJerkMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGyroscopeMagnitudeMean
+#####timeDomainGyroscopeMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGyroscopeMagnitudeStandardDeviation
+#####timeDomainGyroscopeMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGyroscopeJerkMagnitudeMean
+#####timeDomainGyroscopeJerkMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGyroscopeJerkMagnitudeStandardDeviation
+#####timeDomainGyroscopeJerkMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerometerMeanX
+#####frequencyDomainBodyAccelerometerMeanX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerometerMeanY
+#####frequencyDomainBodyAccelerometerMeanY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerometerMeanZ
+#####frequencyDomainBodyAccelerometerMeanZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerometerStandardDeviationX
+#####frequencyDomainBodyAccelerometerStandardDeviationX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerometerStandardDeviationY
+#####frequencyDomainBodyAccelerometerStandardDeviationY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerometerStandardDeviationZ
+#####frequencyDomainBodyAccelerometerStandardDeviationZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerationJerkMeanX
+#####frequencyDomainBodyAccelerationJerkMeanX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerationJerkMeanY
+#####frequencyDomainBodyAccelerationJerkMeanY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerationJerkMeanZ
+#####frequencyDomainBodyAccelerationJerkMeanZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerationJerkStandardDeviationX
+#####frequencyDomainBodyAccelerationJerkStandardDeviationX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerationJerkStandardDeviationY
+#####frequencyDomainBodyAccelerationJerkStandardDeviationY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyAccelerationJerkStandardDeviationZ
+#####frequencyDomainBodyAccelerationJerkStandardDeviationZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyGyroscopeMeanX
+#####frequencyDomainBodyGyroscopeMeanX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyGyroscopeMeanY
+#####frequencyDomainBodyGyroscopeMeanY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyGyroscopeMeanZ
+#####frequencyDomainBodyGyroscopeMeanZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyGyroscopeStandardDeviationX
+#####frequencyDomainBodyGyroscopeStandardDeviationX#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyGyroscopeStandardDeviationY
+#####frequencyDomainBodyGyroscopeStandardDeviationY#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainBodyGyroscopeStandardDeviationZ
+#####frequencyDomainBodyGyroscopeStandardDeviationZ#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainAccelerationMagnitudeMean
+#####frequencyDomainAccelerationMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainAccelerationMagnitudeStandardDeviation
+#####frequencyDomainAccelerationMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainAccelerationJerkMagnitudeMean
+#####frequencyDomainAccelerationJerkMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainAccelerationJerkMagnitudeStandardDeviation
+#####frequencyDomainAccelerationJerkMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainGyroscopeMagnitudeMean
+#####frequencyDomainGyroscopeMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainGyroscopeMagnitudeStandardDeviation
+#####frequencyDomainGyroscopeMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainGyroscopeJerkMagnitudeMean
+#####frequencyDomainGyroscopeJerkMagnitudeMean#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
-frequencyDomainGyroscopeJerkMagnitudeStandardDeviation
+#####frequencyDomainGyroscopeJerkMagnitudeStandardDeviation#####
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
