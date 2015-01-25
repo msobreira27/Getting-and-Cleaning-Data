@@ -97,9 +97,9 @@ Type - Character
 
 6."LAYING"
 
+_______________________________________________________________________________________________________________________
 
-
-timeDomainBodyAccelerometerMeanX
+#####timeDomainBodyAccelerometerMeanX#####
 
 Mean of accelerometer primary raw data - X axys
 
