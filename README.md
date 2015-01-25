@@ -606,7 +606,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyGyroscopeMeanX#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Gyroscope - X Axis
 
 Type - Double Number
 
@@ -614,7 +614,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyGyroscopeMeanY#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Gyroscope - Y Axis
 
 Type - Double Number
 
@@ -622,7 +622,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyGyroscopeMeanZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Gyroscope - Z Axis
 
 Type - Double Number
 
@@ -630,7 +630,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyGyroscopeStandardDeviationX#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Gyroscope - X Axis
 
 Type - Double Number
 
@@ -638,7 +638,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyGyroscopeStandardDeviationY#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Gyroscope - Y Axis
 
 Type - Double Number
 
@@ -646,7 +646,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainBodyGyroscopeStandardDeviationZ#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Gyroscope - Z Axis
 
 Type - Double Number
 
@@ -654,7 +654,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainAccelerationMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Acceleration Magnitude
 
 Type - Double Number
 
@@ -662,7 +662,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainAccelerationMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Acceleration Magnitude
 
 Type - Double Number
 
@@ -670,7 +670,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainAccelerationJerkMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Jerk Acceleration Magnitude
 
 Type - Double Number
 
@@ -678,7 +678,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainAccelerationJerkMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Jerk Acceleration Magnitude
 
 Type - Double Number
 
@@ -686,7 +686,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainGyroscopeMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Gyroscope Magnitude
 
 Type - Double Number
 
@@ -694,7 +694,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainGyroscopeMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Gyroscope Magnitude
 
 Type - Double Number
 
@@ -702,7 +702,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainGyroscopeJerkMagnitudeMean#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Mean Gyroscope Jerk Magnitude
 
 Type - Double Number
 
@@ -710,7 +710,7 @@ range [-1..1]
 _____________________________________________________________________________________________________________________________
 #####frequencyDomainGyroscopeJerkMagnitudeStandardDeviation#####
 
-Mean of accelerometer primary raw data - Y axys
+Frequency Domain (FFT) of Standard Deviation Gyroscope Jerk Magnitude
 
 Type - Double Number
 
