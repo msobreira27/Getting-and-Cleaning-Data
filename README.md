@@ -70,7 +70,7 @@ Using group_by I separated the varibles of interest - subject and activity. As I
 
 ##CODE BOOK##
 
-subject
+#####subject#####
 
 Number identifying each participant
 
@@ -79,7 +79,7 @@ Type - Integer Number
 1..30 
 
 
-activity
+#####activity#####
 
 Type of activity(from a total of 6) performed by each participant.
 
