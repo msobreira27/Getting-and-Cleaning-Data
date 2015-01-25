@@ -52,7 +52,7 @@ dim(subjectTest)
 So merging the Train and Test sets would add 2 extra variables that were passed as the data frame fixedVariables. The complete dataframe was transformed to a vector then the entire vector was passed to the complete dataframe (superSet) through the function names.
 
 dim(superSet)
-1]  10299   563
+[1]  10299   563
 
 ####Uses descriptive activity names to name the activities in the data set####
 
