@@ -16,18 +16,27 @@ Used function read.table to read all files and store in dataframes. Inertial Sig
 
 I used cbind and rbind functions to assemble the data - making sure the dimmensions were correct. Using the dim code the following dimensions were verified:
 dim(subjectTrain)
+
 [1] 7352    1
+
 
 dim(xTrain)
+
 [1] 7352  561
 
+
 dim(yTrain)
+
 [1] 7352    1
 
+
 dim(activityLabels)
+
 [1] 6 2
 
+
 dim(features)
+
 [1] 561   2
 
 dim(xTest)
