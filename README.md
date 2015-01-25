@@ -52,7 +52,7 @@ dim(subjectTest)
 So merging the Train and Test sets would add 2 extra variables that were passed as the data frame fixedVariables. The complete dataframe was transformed to a vector then the entire vector was passed to the complete dataframe (superSet) through the function names.
 
 dim(superSet)
-[1]  10299   563
+   1] 10299   563
 
 ####Uses descriptive activity names to name the activities in the data set####
 
@@ -98,6 +98,7 @@ Type - Character
 6."LAYING"
 
 
+
 timeDomainBodyAccelerometerMeanX
 
 Mean of accelerometer primary raw data - X axys
@@ -106,43 +107,78 @@ Type - Double Number
 
 -1..1
 
+
+
 timeDomainBodyAccelerometerMeanY
+
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
+
+
 
 timeDomainBodyAccelerometerMeanZ
-Mean of accelerometer primary raw data - Y axys
+
+Mean of accelerometer primary raw data - Z axys
+
 Type - Double Number
+
 -1..1
+
+
+
 
 timeDomainBodyAccelerometerStandardDeviationX
-Mean of accelerometer primary raw data - Y axys
+
+Standard Deviation of accelerometer primary raw data - X axys
+
 Type - Double Number
+
 -1..1
+
+
 
 timeDomainBodyAccelerometerStandardDeviationY
-Mean of accelerometer primary raw data - Y axys
+
+Standard Deviation of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
+
+
 
 timeDomainBodyAccelerometerStandardDeviationZ
-Mean of accelerometer primary raw data - Y axys
+
+Standard Deviation of accelerometer primary raw data - Z axys
+
 Type - Double Number
+
 -1..1
 
+
+
+
 timeDomainGravityAccelarationMeanX
-Mean of accelerometer primary raw data - Y axys
+
+Mean of Gravity Acceleration (calculated from raw) - X axys
+
 Type - Double Number
+
 -1..1
 
 timeDomainGravityAccelarationMeanY
-Mean of accelerometer primary raw data - Y axys
+
+Mean of Gravity Acceleration (calculated from raw) - Y axys
+
 Type - Double Number
+
 -1..1
 
 timeDomainGravityAccelarationMeanZ
-Mean of accelerometer primary raw data - Y axys
+Mean of Gravity Acceleration (calculated from raw) - Z axys
 Type - Double Number
 -1..1
 
