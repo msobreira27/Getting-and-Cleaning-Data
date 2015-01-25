@@ -15,6 +15,8 @@ Used function read.table to read all files and store in dataframes. Inertial Sig
 ####Extracts only the measurements on the mean and standard deviation for each measurement.####
 
 I used cbind and rbind functions to assemble the data - making sure the dimmensions were correct. Using the dim code the following dimensions were verified:
+
+
 dim(subjectTrain)
 
 [1] 7352    1
