@@ -12,7 +12,7 @@ The comments on the script break the code in an introduction where the library n
 
 Used function read.table to read all files and store in dataframes. Inertial Signals were not loaded as they are not needed in this exercise.
 
-####Extracts only the measurements on the mean and standard deviation for each measurement.#### 
+####Extracts only the measurements on the mean and standard deviation for each measurement.####
 
 I used cbind and rbind functions to assemble the data - making sure the dimmensions were correct. Using the dim code the following dimensions were verified:
 dim(subjectTrain)
@@ -77,8 +77,11 @@ Type - Character
 
 
 timeDomainBodyAccelerometerMeanX
+
 Mean of accelerometer primary raw data - X axys
+
 Type - Double Number
+
 -1..1
 
 timeDomainBodyAccelerometerMeanY
