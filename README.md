@@ -1,9 +1,10 @@
 # Getting-and-Cleaning-Data
 Getting and Cleaning Data - getdata-010 - Course Project
 
-###COURSE PROJECT###
+###COURSE PROJECT - Comments on the code logic###
 
-How the script run_analysis work and assumptions:
+Assumption:
+The main assumption is that we consider valid measurements only if they come in pairs mean, standard deviation.
 
 The comments on the script break the code in an introduction where the library needed and files are loaded and the the 5 steps requested by the course:
 
@@ -11,7 +12,7 @@ The comments on the script break the code in an introduction where the library n
 
 Used function read.table to read all files and store in dataframes. Inertial Signals were not loaded as they are not needed in this exercise.
 
-2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+####Extracts only the measurements on the mean and standard deviation for each measurement.#### 
 
 I used cbind and rbind functions to assemble the data - making sure the dimmensions were correct. Using the dim code the following dimensions were verified:
 dim(subjectTrain)
@@ -43,14 +44,19 @@ So merging the Train and Test sets would add 2 extra variables that were passed 
 dim(superSet)
 1]  10299   563
 
-3. Uses descriptive activity names to name the activities in the data set
+####Uses descriptive activity names to name the activities in the data set####
 
-I converted the activity variable to character and replaced the values conditionally directly to the variable. 
+Straight forward - I converted the activity variable to character and replaced the values conditionally directly to the variable. 
+
+####Appropriately labels the data set with descriptive variable names.####
+
+Also straight forward (and brute force) - I used the function names() to change the names of the variables. The idea was to use camelCase and print, for each variable, the full description of the variable. 
+
+####From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.####
+
+Using group_by I separated the varibles of interest - subject and activity. As I had to apply mean to each column, I used summarise_each to perform the task. Finally I wrote the final result to a file that is uploaded on the submission page.
 
 
-4. Appropriately labels the data set with descriptive variable names. 
-
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 ##CODE BOOK##
 subject
