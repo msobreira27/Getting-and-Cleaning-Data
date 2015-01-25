@@ -7,7 +7,7 @@ How the script run_analysis work and assumptions:
 
 The comments on the script break the code in an introduction where the library needed and files are loaded and the the 5 steps requested by the course:
 
-#Merges the training and the test sets to create one data set.#
+####Merges the training and the test sets to create one data set.####
 
 Used function read.table to read all files and store in dataframes. Inertial Signals were not loaded as they are not needed in this exercise.
 
