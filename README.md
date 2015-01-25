@@ -18,37 +18,36 @@ I used cbind and rbind functions to assemble the data - making sure the dimmensi
 
 
 dim(subjectTrain)
-
 [1] 7352    1
 
 
 dim(xTrain)
-
 [1] 7352  561
 
 
 dim(yTrain)
-
 [1] 7352    1
 
 
 dim(activityLabels)
-
 [1] 6 2
 
 
 dim(features)
-
 [1] 561   2
+
 
 dim(xTest)
 [1] 2947  561
 
+
 dim(yTest)
 [1] 2947    1
 
+
 dim(subjectTest)
 [1] 2947    1
+
 
 So merging the Train and Test sets would add 2 extra variables that were passed as the data frame fixedVariables. The complete dataframe was transformed to a vector then the entire vector was passed to the complete dataframe (superSet) through the function names.
 
