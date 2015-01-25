@@ -68,9 +68,9 @@ Using group_by I separated the varibles of interest - subject and activity. As I
 
 
 
-##CODE BOOK (Variables in Bold)## 
+##CODE BOOK## 
 
-###General###
+###General(Extracted from feature_info.txt file)###
 
 Feature Selection 
 =================
