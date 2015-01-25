@@ -59,21 +59,33 @@ Using group_by I separated the varibles of interest - subject and activity. As I
 
 
 ##CODE BOOK##
+
 subject
+
 Number identifying each participant
+
 Type - Integer Number
+
 1..30 
 
+
 activity
-Type of activity(from a total of 6) performed by each participant. 
+
+Type of activity(from a total of 6) performed by each participant.
+
 Type - Character
 
 1."WALKING"
+
 2."WALKING_UPSTAIRS"
+
 3."WALKING_DOWNSTAIRS"
+
 4."SITTING"
+
 5."STANDING"
-2."LAYING"
+
+6."LAYING"
 
 
 timeDomainBodyAccelerometerMeanX
