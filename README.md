@@ -110,7 +110,7 @@ Type - Double Number
 
 _____________________________________________________________________________________________________________________________
 
-timeDomainBodyAccelerometerMeanY
+#####timeDomainBodyAccelerometerMeanY#####
 
 Mean of accelerometer primary raw data - Y axys
 
@@ -120,7 +120,7 @@ Type - Double Number
 
 _____________________________________________________________________________________________________________________________
 
-timeDomainBodyAccelerometerMeanZ
+#####timeDomainBodyAccelerometerMeanZ#####
 
 Mean of accelerometer primary raw data - Z axys
 
@@ -131,7 +131,7 @@ Type - Double Number
 
 _____________________________________________________________________________________________________________________________
 
-timeDomainBodyAccelerometerStandardDeviationX
+#####timeDomainBodyAccelerometerStandardDeviationX#####
 
 Standard Deviation of accelerometer primary raw data - X axys
 
@@ -141,7 +141,7 @@ Type - Double Number
 
 _____________________________________________________________________________________________________________________________
 
-timeDomainBodyAccelerometerStandardDeviationY
+#####timeDomainBodyAccelerometerStandardDeviationY##########
 
 Standard Deviation of accelerometer primary raw data - Y axys
 
@@ -151,7 +151,7 @@ Type - Double Number
 
 _____________________________________________________________________________________________________________________________
 
-timeDomainBodyAccelerometerStandardDeviationZ
+#####timeDomainBodyAccelerometerStandardDeviationZ##########
 
 Standard Deviation of accelerometer primary raw data - Z axys
 
@@ -162,7 +162,7 @@ Type - Double Number
 _____________________________________________________________________________________________________________________________
 
 
-timeDomainGravityAccelarationMeanX
+#####timeDomainGravityAccelarationMeanX#####
 
 Mean of Gravity Acceleration (calculated from raw) - X axys
 
@@ -170,7 +170,7 @@ Type - Double Number
 
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelarationMeanY
+#####timeDomainGravityAccelarationMeanY#####
 
 Mean of Gravity Acceleration (calculated from raw) - Y axys
 
@@ -178,34 +178,36 @@ Type - Double Number
 
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelarationMeanZ
+#####timeDomainGravityAccelarationMeanZ#####
 Mean of Gravity Acceleration (calculated from raw) - Z axys
 Type - Double Number
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelarationStandardDeviationX
+#####timeDomainGravityAccelarationStandardDeviationX#####
 Mean of accelerometer primary raw data - Y axys
 Type - Double Number
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelarationStandardDeviationY
+#####timeDomainGravityAccelarationStandardDeviationY#####
 Mean of accelerometer primary raw data - Y axys
 Type - Double Number
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainGravityAccelarationStandardDeviationZ
+#####timeDomainGravityAccelarationStandardDeviationZ#####
 Mean of accelerometer primary raw data - Y axys
 Type - Double Number
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyAccelerationJerkMeanX
+#####timeDomainBodyAccelerationJerkMeanX#####
 Mean of accelerometer primary raw data - Y axys
 Type - Double Number
 -1..1
 _____________________________________________________________________________________________________________________________
-timeDomainBodyAccelerationJerkMeanY
+#####timeDomainBodyAccelerationJerkMeanY#####
 Mean of accelerometer primary raw data - Y axys
+
 Type - Double Number
+
 -1..1
 _____________________________________________________________________________________________________________________________
 timeDomainBodyAccelerationJerkMeanZ
